@@ -61,3 +61,7 @@ Application avaiable at this url
 
 ## Lodash
 `$npm install --save lodash`
+`$npm install --save-dev @types/lodash`
+
+### Run build server
+`$npm run build-server`

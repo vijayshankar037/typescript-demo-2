@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc -v"
+    "build-server": "tsc -p server",
+    "serve": "node build/server/server.js"
   },
   "keywords": [],
   "author": "",
