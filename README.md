@@ -23,3 +23,17 @@ This command compile typescript code to javascript file.
 
 ### Verify javascript code in terminal
 `$node server/server.js`
+
+### .tsconfig
+Defines which TypeScript files should be compiled and the location of the resulting javaScript files.
+
+Specify the teypeScript feature use during compilation 
+
+### Compiler option in `tsconfig.json`
+- Es Interoperability
+- Emitting files
+- Sctric mode
+- Targeting output language 
+
+### Generate tsconfig.json
+`$tsc --init`
