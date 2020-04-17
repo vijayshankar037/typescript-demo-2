@@ -5,3 +5,4 @@ const app = express();
 app.listen(port);
 app.use(express.static('public'))
 console.log("Listining on port "+ port);
+console.log("Listing value");

@@ -53,3 +53,8 @@ Application avaiable at this url
 
 ### Compile sub server
 `$tsc --p server/tsconfig.json`
+
+#TypeScript Compiler
+`$tsc --build`
+
+## Declaration Files
