@@ -50,3 +50,6 @@ Serve app to browser using express
 `$node server/server.js`
 Application avaiable at this url
 - http://localhost:1337/
+
+### Compile sub server
+`$tsc --p server/tsconfig.json`
