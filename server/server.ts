@@ -16,6 +16,7 @@ app.use(express.static('public'))
 console.log("Listining on port "+ port);
 
 app.get("/questions", (_req, res)=>{
+  debugger;
   res.json(questions);
 })
 
