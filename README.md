@@ -57,7 +57,7 @@ Application avaiable at this url
 #TypeScript Compiler
 `$tsc --build`
 
-## Declaration Files
+## Type Declaration Files
 
 ## Lodash
 `$npm install --save lodash`

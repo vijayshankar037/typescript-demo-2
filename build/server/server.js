@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var express = require("express");
+var path = require("path");
 var questions = [{
         title: "How to login?",
         content: "How do I log in?",
@@ -13,5 +14,8 @@ app.use(express.static('public'));
 console.log("Listining on port " + port);
 app.get("/questions", function (_req, res) {
     res.json(questions);
+});
+app.get('/main.js', function (_req, res) {
+    res.sendFile(path.resolve(__dirname, "..", "client", "client.js"));
 });
 //# sourceMappingURL=server.js.map
