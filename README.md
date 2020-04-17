@@ -65,3 +65,6 @@ Application avaiable at this url
 
 ### Run build server
 `$npm run build-server`
+
+### ESLint
+`$npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser`
