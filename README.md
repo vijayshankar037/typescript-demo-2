@@ -58,3 +58,6 @@ Application avaiable at this url
 `$tsc --build`
 
 ## Declaration Files
+
+## Lodash
+`$npm install --save lodash`
