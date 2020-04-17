@@ -1,3 +1,8 @@
 "use strict";
-var message = "Hello TypeScript!";
-console.log(message);
+Object.defineProperty(exports, "__esModule", { value: true });
+var express = require("express");
+var port = process.env.port || 1337;
+var app = express();
+app.listen(port);
+app.use(express.static('public'));
+console.log("Listining on port " + port);

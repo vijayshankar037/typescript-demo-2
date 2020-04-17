@@ -37,3 +37,16 @@ Specify the teypeScript feature use during compilation
 
 ### Generate tsconfig.json
 `$tsc --init`
+
+### install express via npm
+- Install express types 
+  - npm install --save-dev express
+  - npm install --save-dev @types/express
+- Create index.html
+- Create basic server.ts file and compile 
+Serve app to browser using express
+
+### run server
+`$node server/server.js`
+Application avaiable at this url
+- http://localhost:1337/
