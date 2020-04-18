@@ -26,10 +26,20 @@ app.use(express.static('public'))
 console.log("Listining on port "+ port);
 
 app.get("/questions", (_req, res)=>{
-  debugger;
   res.json(questions);
-})
+});
 
 app.get('/main.js',(_req, res) =>{
   res.sendFile(path.resolve(__dirname,"..","client","client.js"))
-})
+});
+
+app.get("/new", (req, res) => {
+  const question: Question = req;//.query;
+  
+  questions.push(question);
+
+  res.json({
+    questions,
+    status: "OK"
+  });
+});

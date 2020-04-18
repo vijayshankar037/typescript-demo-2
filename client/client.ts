@@ -24,5 +24,19 @@ import {Question} from "../@types/Question";
     console.log(questions);
     render();
   }
+
+  async function handleSubmitQuestionForm(): Promise<void>{
+    event.preventDefault();
+    const title: string = document.forms['QuestionForm'][0].value;
+    const content: string = document.forms['QuestionForm'][1].value;
+    
+    const request = await fetch(`/new?title=${title}&content=${content}`);
+    const json = await request.json();
+
+    questions = json.questions;
+    render();
+  } 
+
+  document.getElementById("QuestionForm").addEventListener("submit",handleSubmitQuestionForm);
   init();
 })();
