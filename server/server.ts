@@ -7,6 +7,16 @@ const questions: Question[] =[{
   title: "How to login?",
   content: "How do I log in?",
   answerCount: 2
+},
+{
+  title: "How to learn css",
+  content: "How do I learn css?",
+  answerCount: 2
+},
+{
+  title: "How to learn python3",
+  content: "How do I learn python3?",
+  answerCount: 2
 }]
 const port: string | number = process.env.port || 1337
 const app = express();

@@ -68,3 +68,5 @@ Application avaiable at this url
 
 ### ESLint
 `$npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser`
+
+### Install chrome debugger in ES
