@@ -1,9 +1,9 @@
 import * as express from 'express';
-import * as _ from "lodash";
+//import * as _ from "lodash";
 import * as path from "path";
-import {Question} from '../@types/Question'
+import { Question } from '../@types/Question'
 
-const questions : Question[] =[{
+const questions: Question[] =[{
   title: "How to login?",
   content: "How do I log in?",
   answerCount: 2
